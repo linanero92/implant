@@ -349,7 +349,6 @@ img {
 
 @media (max-width: 320px) {
 	.container {
-		width: 317px;
 		margin-left: auto;
 		margin-right: auto;
 	}
