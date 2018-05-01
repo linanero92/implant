@@ -234,6 +234,9 @@ img {
 		display: inline-block;
 		width: 303px;
 		height: 390px;
+		-webkit-transform: translateY(0);
+		    -ms-transform: translateY(0);
+		        transform: translateY(0);
 }
 	
 	.section-image img {
@@ -273,6 +276,9 @@ img {
 		display: inline-block;
 		width: 303px;
 		height: 390px;
+		-webkit-transform: translateY(0);
+		    -ms-transform: translateY(0);
+		        transform: translateY(0);
 	}
 }
 
@@ -315,24 +321,8 @@ img {
 	}
 
 	.button-o {
-		padding-right: 72px;
-		padding-left: 64px;
-	}
-
-	.button:hover {
-		margin-right: 0px;
-		margin-left: 0px;
-		margin-bottom: 20px;
-		padding-right: 48px;
-		padding-bottom: 26px;
-		padding-left: 50px;
-	}
-
-	.button-o:hover {
-		margin-right: 0px;
-		margin-left: 0px;
-		padding-right: 72px;
-		padding-left: 64px;
+		padding-right: 74px;
+		padding-left: 66px;
 	}
 }
 
@@ -369,36 +359,14 @@ img {
 		margin-left: 0px;
 		margin-right: 0px;
 		padding-top: 18px;
-		padding-right: 29px;
+		padding-right: 30px;
 		padding-bottom: 18px;
-		padding-left: 29px;
+		padding-left: 30px;
 	}
 
 	.button-o {
-		padding-top: 15px;
-		padding-bottom: 15px;
-		padding-right: 44px;
-		padding-left: 44px;
-	}
-
-	.button:hover {
-		font-size: 18px;
-		margin-bottom: 20px;
-		margin-right: 0px;
-		margin-left: 0px;
-		padding-top: 16px;
-		padding-right: 28px;
-		padding-bottom: 16px;
-		padding-left: 28px;
-	}
-
-	.button-o:hover {
-		margin-right: 0px;
-		margin-left: 0px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		padding-right: 44px;
-		padding-left: 44px;
+		padding-right: 45px;
+		padding-left: 45px;
 	}
 
 @media (max-width: 320px) {
@@ -427,26 +395,6 @@ img {
 	}
 
 	.button-o {
-		padding-right: 63px;
-		padding-left: 63px;
-	}
-
-	.button:hover {
-		font-size: 18px;
-		margin-bottom: 30px;
-		margin-right: 0px;
-		margin-left: 0px;
-		padding-top: 16px;
-		padding-right: 48px;
-		padding-bottom: 16px;
-		padding-left: 48px;
-	}
-
-	.button-o:hover {
-		margin-right: 0px;
-		margin-left: 0px;
-		padding-top: 15px;
-		padding-bottom: 15px;
 		padding-right: 63px;
 		padding-left: 63px;
 	}
