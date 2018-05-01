@@ -221,15 +221,23 @@ img {
 	.section-image {
 		float: right;
 		display: inline-block;
-		width: 330px;
+		width: 342px;
 		height: 390px;
 		-webkit-transform: translateY(-450px);
 		    -ms-transform: translateY(-450px);
 		        transform: translateY(-450px);
 	}
+
+	.section-image:hover::after {
+		content: url('../img/woman_with_tooth-adapt.png');
+		position: absolute;
+		display: inline-block;
+		width: 303px;
+		height: 390px;
+}
 	
 	.section-image img {
-		width: 320px;
+		width: 303px;
 		height: 390px;
 	}
 
@@ -252,11 +260,19 @@ img {
 	.section-image {
 		float: right;
 		display: inline-block;
-		width: 330px;
+		width: 342px;
 		height: 390px;
 		-webkit-transform: translateY(-450px);
 		    -ms-transform: translateY(-450px);
 		        transform: translateY(-450px);
+	}
+	
+	.section-image:hover::after {
+		content: url('../img/woman_with_tooth-adapt.png');
+		position: absolute;
+		display: inline-block;
+		width: 303px;
+		height: 390px;
 	}
 }
 
